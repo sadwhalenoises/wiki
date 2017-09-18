@@ -1,0 +1,28 @@
+
+<head>
+<link rel="stylesheet" type="text/css" href="css/wiki.css">
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.5/angular.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/wiki.js"></script>
+
+
+</head>
+
+
+
+
+
+
+<body ng-app= "myApp">
+  <!--making the searchbar-->
+<div ng-controller="simpleController">
+  
+ <div class="input-group">
+  <form ng-submit ="search()">  
+    
+    <input ng-model ="searchTxt" type="text"  class="form-control" placeholder="Search"/>
+  </div>
+   </form>
+  <span id="random"> <a href="https://en.wikipedia.org/wiki/Special:Random"> Random Article</a></span>
+  <div id="result">
+  </div>

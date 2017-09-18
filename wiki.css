@@ -1,0 +1,43 @@
+body{
+  background-color: #5FC1FF
+}
+
+.input-group {
+  margin-left: 40%;
+  margin-top: 2%;
+  margin-bottom: 15px;
+}
+#random{
+  margin-left: 43%;
+  border: solid;
+  border-radius: 5px;
+  border-width: 2px;
+  border-color: black;
+  color: #E6E6DC
+}
+#random a{
+  text-decoration: none;
+  color: inherit;
+  
+  
+}
+#result{
+  margin-left: 10%;
+  margin-right: 10%;
+  font-family: "Courgette"
+}
+#result a {
+  text-decoration: none;
+  color: inherit;
+  }
+
+#text {
+  border-style: solid;
+  border-color: black;
+  margin-top: 20px;
+  background-color: #81A594;
+  color: #E6E6DC;
+  
+}
+
+
