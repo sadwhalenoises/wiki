@@ -1,19 +1,17 @@
 body{
-  background-color: #5FC1FF
+  background-color: #092B40
 }
 
 .input-group {
-  margin-left: 40%;
-  margin-top: 2%;
-  margin-bottom: 15px;
+    margin-left: 37em;
+    margin-top: 4em;
 }
 #random{
-  margin-left: 43%;
-  border: solid;
+  margin-left: 39em;
   border-radius: 5px;
   border-width: 2px;
   border-color: black;
-  color: #E6E6DC
+  color: orange;
 }
 #random a{
   text-decoration: none;
@@ -32,12 +30,15 @@ body{
   }
 
 #text {
-  border-style: solid;
-  border-color: black;
+  padding: 15px 30px 5px 30px;
   margin-top: 20px;
-  background-color: #81A594;
-  color: #E6E6DC;
+  background-color: white;
+  color: black;
   
+}
+#text:hover{
+  border-left: 10px solid orange;
+  margin-left: -10px;
 }
 
 

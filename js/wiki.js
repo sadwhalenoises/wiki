@@ -12,6 +12,7 @@ myApp.controller("simpleController", function($scope, $http){
       search: $search,
     },
     success: function(data){
+      console.log(data);
       var $result = $('#result')
       for (var i = 0; i < data[1].length; i++){
         $result.append('<div id="text">' + '<a href=' + data[3][i] + 'target ="_blank">' + '<h1>'  + data[1][i] +'</h1>' + '<p>' + data[2][i] + '</p>' + '</div>');
